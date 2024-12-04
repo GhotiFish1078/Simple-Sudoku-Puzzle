@@ -3,6 +3,9 @@ package sudoku_game;
 import java.util.HashSet;
 import java.util.Set;
 
+import sudoku_game.exceptions.CannotEditException;
+import sudoku_game.exceptions.InvalidNumberException;
+
 /**
  * Represents a single sudoku cell
  */
